@@ -131,5 +131,3 @@ int main() {
 
 // precisa corrigir
 // se colocar mts espaços antes do comando, remover
-// exit funcionar se tiver no ;
-// arrumar o seq pra rodar todos os comandos num mesmo processo, e nao encerrar

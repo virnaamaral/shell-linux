@@ -51,8 +51,8 @@ int main() {
 
         if (flag_semicolon == 1) { // COM ;
 
-        char **args_execvp_semicolon = (char **)malloc((len + 1) * sizeof(char *));
-        int c1 = 0;
+            char **args_execvp_semicolon = (char **)malloc((len + 1) * sizeof(char *)); // recebe comandos ate ;
+            int c1 = 0;
 
         token = strtok(cmd_line, ";"); // separa em tokens
             while (token != NULL) {
